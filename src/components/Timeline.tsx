@@ -20,46 +20,46 @@ function Timeline() {
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Technology Consultant</h3>
-            <h4 className="vertical-timeline-element-subtitle">Dallas, TX</h4>
+            <h3 className="vertical-timeline-element-title">UX/UI & Product Designer</h3>
+            <h4 className="vertical-timeline-element-subtitle">Instituto Atlântico</h4>
             <p>
-              Full-stack Web Development, GenAI/LLM, Project Management, Business Development
+              UX, UI and Product Design Leading, Discovery, Research, User Interviews, Usability Testing, Stakeholder Communication, POCs, Service Design, Workshops and Lectures
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2020 - 2022"
+            date="2021 - 2025"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Full Stack Engineer</h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
+            <h3 className="vertical-timeline-element-title"> Senior Graphic Designer</h3>
+            <h4 className="vertical-timeline-element-subtitle">SiMCo Healthcare</h4>
             <p>
-              Frontend Development, Backend Development, User Experience, Team Leading
+              Design Lead, Design Guidelines, UX, UI, Style Guides, Branding, Visual Identity, Campaigns, Product Design,User Experience, Team Leading
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2021 - 2021"
+            date="2018 - 2019"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Staff Engineer Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
+            <h3 className="vertical-timeline-element-title">Senior Graphic Designer</h3>
+            <h4 className="vertical-timeline-element-subtitle">Senac</h4>
             <p>
-              Full-stack Development, API Development, User Experience
+              Design Guidelines, Visual Identity, Branding, Graphic Materials, Digital Design, Editorial Design, Marketing, Campaigns, Events
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2020 - 2020"
+            date="2017 - 2018"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Data Analyst Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">Tokyo, Japan</h4>
+            <h3 className="vertical-timeline-element-title">Graphic Designer/Content Manager</h3>
+            <h4 className="vertical-timeline-element-subtitle">Making Soluções</h4>
             <p>
-              Automation, Data Governance, Statistical Analysis
+              Branding, Visual Identity, Graphic Materials, Digital Design, UX Social Media, Digital Content, Live Marketing, Naming, Editorial Design, Marketing, Campaigns, Events, Content Management
             </p>
           </VerticalTimelineElement>
         </VerticalTimeline>

@@ -6,39 +6,58 @@ import Chip from '@mui/material/Chip';
 import '../assets/styles/Expertise.scss';
 
 const labelsFirst = [
-    "React",
-    "TypeScript",
-    "JavaScript",
-    "HTML5",
-    "CSS3",
-    "SASS",
-    "Flask",
-    "Python",
-    "SQL",
-    "PostgreSQL",
-    "Postman"
+    "Figma",
+"Framer (CMS & Analytics)",
+"Adobe XD",
+"Sketch",
+"Miro",
+"FigJam",
+"Notion",
+"User Flows",
+"Information Architecture",
+"Prototyping",
+"Wireframing",
+"Design Systems",
+"UI Kits",
+"Accessibility",
+"Adobe Photoshop",
+"Adobe Illustrator",
+"Adobe After Effects",
 ];
 
 const labelsSecond = [
-    "Git",
-    "GitHub Actions",
-    "Docker",
-    "AWS",
-    "Azure",
-    "Linux",
-    "Snowflake",
-    "Pandas",
-    "Selenium",
+   "User Research",
+   "User Interviews",
+   "Journey Mapping",
+   "Personas",
+   "Design Thinking",
+   "Double Diamond",
+   "Surveys",
+   "CSD Matrix",
+   "Usability testing",
+   "A/B Testing",
+   "Agile Methodologies",
+   "Scrum",
+   "Maze",
+   "Miro / FigJam",
+   "Hotjar",
+   "Jira / Notion",
+   "Confluence",
+   "GitHub",
+   "Trello",
+   "Azure Devops",
 ];
 
 const labelsThird = [
-    "OpenAI",
-    "Groq",
-    "LangChain",
-    "Qdrant",
-    "Hugging Face",
-    "LlamaIndex",
-    "Streamlit",
+    "Lovable",
+   "Google Stitch",
+    "Chat GPT",
+    "Microsoft Copilot",
+    "Gemini",
+    "Veo 3",
+    "Github Copilot",
+    "VS Code",
+    "Power BI",
 ];
 
 function Expertise() {
@@ -49,8 +68,8 @@ function Expertise() {
             <div className="skills-grid">
                 <div className="skill">
                     <FontAwesomeIcon icon={faReact} size="3x"/>
-                    <h3>Full Stack Web Development</h3>
-                    <p>I have built a diverse array of web applications from scratch using modern technologies such as React and Flask. I have a strong proficiency in the SDLC process and frontend + backend development.</p>
+                    <h3>UX/UI & Product Designer</h3>
+                    <p>I design intuitive and engaging digital experiences, from discovery to delivery, combining research, prototyping, and visual design. My expertise spans the full product lifecycle, from problem definition to high-fidelity solutions.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsFirst.map((label, index) => (
@@ -61,8 +80,8 @@ function Expertise() {
 
                 <div className="skill">
                     <FontAwesomeIcon icon={faDocker} size="3x"/>
-                    <h3>DevOps & Automation</h3>
-                    <p>Once the application is built, I help clients set up DevOps testing, CI/CD pipelines, and deployment automation to support the successful Go-Live.</p>
+                    <h3>Research & Product Strategy</h3>
+                    <p>I plan and conduct user research, usability testing, and discovery workshops to uncover needs and opportunities. I synthesize insights into actionable strategies and align cross-functional teams for product delivery.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsSecond.map((label, index) => (
@@ -73,8 +92,8 @@ function Expertise() {
 
                 <div className="skill">
                     <FontAwesomeIcon icon={faPython} size="3x"/>
-                    <h3>GenAI & LLM</h3>
-                    <p>Stay relevant in the market by leveraging the latest AI models in your projects. I have professional experience building enterprise grade GenAI-enabled solutions to empower intelligent decision making.</p>
+                    <h3>Design Innovation & Emerging Tech</h3>
+                    <p>I explore and integrate emerging technologies, from AI-driven design tools to no-code/low-code platforms, to accelerate prototyping and push innovation in digital products.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsThird.map((label, index) => (
